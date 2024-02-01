@@ -1,0 +1,65 @@
+h1 {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.titulo-principal {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.titulo-principal h1 {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 1;
+  color: #fff;
+  opacity: 0.2;
+}
+
+.apresentação {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.apresentação p {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+.apresentação img {
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+.sub-titulo-estampados {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+.sub-titulo-estampados h2 {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 1;
+  color: #fff;
+  opacity: 0.5;
+}
+
+@media (max-width: 999px) {
+  .apresentação {
+    grid-template-columns: 1fr;
+    padding-top: 60px;
+    width: 95%;
+  }
+
+  .titulo-principal h1 {
+    font-size: 40px;
+    opacity: 0.5;
+  }
+}
