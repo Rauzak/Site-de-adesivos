@@ -136,7 +136,7 @@
   background-color: #ffcb44;
   border-radius: 0.5rem;
   text-transform: uppercase;
-  box-shadow: 0 0.625rem 0.125rem 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.625rem 0.125rem 0.125rem rgba(0, 0, 0, 0.1);
   cursor: pointer;
   font-weight: 600;
   color: #23232e;
