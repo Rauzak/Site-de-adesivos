@@ -1,7 +1,7 @@
 @import "./header.css";
 @import "./apresentação.css";
-@import "./main.css";
-@import "./main2.css";
+@import "./slider-estampados.css";
+@import "./slider-lisos.css";
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
@@ -13,7 +13,7 @@
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 68.75rem;
   margin: 0 auto;
 }
 
@@ -22,5 +22,16 @@ body {
 }
 
 img {
-  border-radius: 5px;
+  border-radius: 0.31rem;
+}
+
+h1,
+h2 {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
 }

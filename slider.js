@@ -1,3 +1,4 @@
+// Slider Estampados
 const initSlider = () => {
   const imageList = document.querySelector(".slider-wrapper .image-list");
   const slideButtons = document.querySelectorAll(
@@ -72,6 +73,7 @@ const initSlider = () => {
 window.addEventListener("resize", initSlider);
 window.addEventListener("load", initSlider);
 
+// Slider Lisos
 const initSlider2 = () => {
   const imageList = document.querySelector(".slider-wrapper2 .image-list2");
   const slideButtons = document.querySelectorAll(
