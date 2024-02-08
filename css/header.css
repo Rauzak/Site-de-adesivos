@@ -59,10 +59,10 @@ nav {
   }
   .nav-list {
     position: absolute;
-    top: 8vh;
+    top: 8%;
     right: 0;
-    width: 50vh;
-    height: 92vh;
+    width: 50%;
+    height: 92%;
     background: #23232e;
     flex-direction: column;
     align-items: center;
