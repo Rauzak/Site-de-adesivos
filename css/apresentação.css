@@ -5,7 +5,7 @@
 .cont-titulo-principal {
   display: flex;
   align-items: center;
-  background-color: #393949;
+  background: #393949;
   width: 34.375rem;
   height: 18.75rem;
   border-radius: 0.5rem 0 0 0.5rem;
@@ -21,7 +21,7 @@
 
 .apresentação {
   display: grid;
-  grid-template-columns: 34.375rem 34.375rem;
+  grid-template-columns: 1fr 1fr;
 }
 
 .apresentação p {
@@ -68,10 +68,12 @@
 @media (max-width: 62.4375rem) {
   #apresentação {
     margin-top: 1.875rem;
+    margin-right: 1.25rem;
+    margin-left: 1.25rem;
   }
   .apresentação {
     grid-template-columns: 1fr;
-    width: 95%;
+    max-width: 100%;
   }
   .apresentação p {
     font-size: 1.125rem;
@@ -111,5 +113,19 @@
   .img-apre {
     width: 100%;
     height: 100%;
+  }
+}
+
+@media (max-width: 36rem) {
+  .titulo-principal {
+    font-size: 2rem;
+  }
+
+  .apresentação p {
+    font-size: 1rem;
+  }
+
+  .text p {
+    line-height: 2.5;
   }
 }

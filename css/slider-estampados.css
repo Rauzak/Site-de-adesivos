@@ -12,15 +12,15 @@
   padding-top: 3.75rem;
   font-weight: 600;
   font-size: 3.75rem;
-  line-height: 1;
+  line-height: 3.75rem;
   color: #23232e;
+  margin-bottom: 1.875rem;
 }
 
 .adesivos {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 31.25rem;
 }
 
 .width {
@@ -119,40 +119,7 @@
   bottom: -0.625rem;
 }
 
-.button {
-  display: flex;
-  justify-content: center;
-}
-
-.button a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.button a {
-  display: flex;
-  max-width: max-content;
-  padding: 1rem 2rem;
-  background-color: #ffcb44;
-  border-radius: 0.5rem;
-  text-transform: uppercase;
-  box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  font-weight: 600;
-  color: #23232e;
-  font-size: 1rem;
-  transition: 0.3s;
-}
-
-.button a:hover {
-  opacity: 0.7;
-}
-
-.button img {
-  padding-left: 0.312rem;
-}
-
-@media only screen and (max-width: 62.4375rem) {
+@media only screen and (max-width: 62.5rem) {
   .slider-wrapper .slide-button {
     display: none !important;
   }
@@ -167,5 +134,12 @@
   }
   .slider-scrollbar .scrollbar-thumb {
     width: 20%;
+  }
+}
+
+@media (max-width: 36rem) {
+  .sub-titulo-slider .sub-estampados {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
   }
 }

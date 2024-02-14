@@ -6,8 +6,9 @@
   padding-top: 3.75rem;
   font-weight: 600;
   font-size: 3.75rem;
-  line-height: 1;
+  line-height: 3.75rem;
   color: #f3f3ff;
+  margin-bottom: 1.875rem;
 }
 
 .slider-wrapper2 {
@@ -101,7 +102,7 @@
   top: -0.625rem;
   bottom: -0.625rem;
 }
-@media only screen and (max-width: 62.4375rem) {
+@media only screen and (max-width: 62.5rem) {
   .slider-wrapper2 .slide-button2 {
     display: none !important;
   }
@@ -111,10 +112,17 @@
     scroll-snap-type: x mandatory;
   }
   .slider-wrapper2 .image-list2 .image-item {
-    width: 17.5rem;
-    height: 23.75rem;
+    max-width: 17.5rem;
+    max-height: 23.75rem;
   }
   .slider-scrollbar2 .scrollbar-thumb2 {
     width: 20%;
+  }
+}
+
+@media (max-width: 36rem) {
+  .sub-titulo-slider .sub-lisos {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
   }
 }

@@ -2,6 +2,8 @@
 @import "./apresentação.css";
 @import "./slider-estampados.css";
 @import "./slider-lisos.css";
+@import "./endereço.css";
+@import "./footer.css";
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
@@ -15,6 +17,14 @@
 .container {
   max-width: 68.75rem;
   margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
 }
 
 body {
@@ -34,4 +44,38 @@ h2 {
 
 li {
   list-style: none;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.button a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button a {
+  display: flex;
+  max-width: max-content;
+  padding: 1rem 2rem;
+  background-color: #ffcb44;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-weight: 600;
+  color: #23232e;
+  font-size: 1rem;
+  transition: 0.3s;
+  margin-top: 30px;
+}
+
+.button a:hover {
+  opacity: 0.7;
+}
+
+.button img {
+  padding-left: 0.312rem;
 }
