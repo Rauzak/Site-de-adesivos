@@ -19,7 +19,7 @@
 }
 
 #footer li a:hover {
-  opacity: 0.7;
+  color: #ffcb44;
 }
 
 .redes_sociais {
@@ -40,8 +40,8 @@
   cursor: pointer;
 }
 
-.redes_sociais div:hover {
-  opacity: 0.7;
+.redes_sociais div a:hover {
+  background: #ffcb44;
 }
 
 @media (max-width: 62.5rem) {
@@ -53,5 +53,11 @@
 
   #footer ul li {
     padding: 1.25rem;
+  }
+}
+
+@media (max-width: 36rem) {
+  .redes_sociais {
+    gap: 2rem;
   }
 }

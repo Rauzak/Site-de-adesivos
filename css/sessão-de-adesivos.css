@@ -1,0 +1,149 @@
+#sessão-adesivos-estampados,
+#sessão-adesivos-lisos {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#sessão-adesivos-lisos {
+  background: #f3f3ff;
+}
+
+.title-sessão {
+  font-weight: 600;
+  font-size: 3.75rem;
+  line-height: 3.75rem;
+  color: #f3f3ff;
+  margin-bottom: 60px;
+}
+
+#sessão-adesivos-lisos .title-sessão {
+  color: #23232e;
+}
+
+.sessão-adesivos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.item-adesivos {
+  max-width: 353.33px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.item-adesivos p {
+  padding: 0px 8px;
+  color: #f3f3ff;
+}
+
+#sessão-adesivos-lisos .item-adesivos p {
+  color: #0c0c00;
+}
+
+.item-adesivos .a {
+  background: #393949;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+#sessão-adesivos-lisos .item-adesivos .a {
+  background: #dfdfea;
+}
+
+.item-adesivos img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px 8px 30px 8px;
+}
+
+.bg-lisos {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px 8px 30px 8px;
+  box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.1);
+}
+
+.c-preto {
+  background-color: #000;
+}
+
+.c-branco {
+  background-color: #fff;
+}
+
+@media (max-width: 1100px) {
+  .title-sessão {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  .sessão-adesivos-estampados {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+  .sessão-adesivos-lisos {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .item-adesivos img {
+    height: 170px;
+  }
+
+  .bg-lisos {
+    height: 170px;
+  }
+}
+
+@media (max-width: 700px) {
+  .item-adesivos img {
+    height: 160px;
+  }
+
+  .bg-lisos {
+    height: 160px;
+  }
+  .sessão-adesivos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .item-adesivos img {
+    height: 130px;
+  }
+  .bg-lisos {
+    height: 130px;
+  }
+  .item-adesivos p {
+    font-size: 0.8rem;
+  }
+  #sessão-adesivos-estampados,
+  #sessão-adesivos-lisos {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .title-sessão {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .sessão-adesivos {
+    grid-template-columns: 1fr;
+  }
+  .item-adesivos img {
+    height: 200px;
+  }
+
+  .bg-lisos {
+    height: 200px;
+  }
+}

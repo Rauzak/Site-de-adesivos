@@ -34,7 +34,7 @@
   transition: 0.2s;
 }
 .slider-wrapper2 .slide-button2:hover {
-  background: #000000;
+  background: #ffcb44;
 }
 .slider-wrapper2 .slide-button2#prev-slide2 {
   left: -1.562rem;

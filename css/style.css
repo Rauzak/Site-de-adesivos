@@ -5,6 +5,8 @@
 @import "./endereço.css";
 @import "./footer.css";
 
+@import "./sessão-de-adesivos.css";
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 * {
@@ -73,9 +75,13 @@ li {
 }
 
 .button a:hover {
-  opacity: 0.7;
+  background-color: #ffdb7f;
 }
 
 .button img {
   padding-left: 0.312rem;
+}
+
+img {
+  box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.1);
 }
