@@ -1,0 +1,110 @@
+#sobre {
+  background: #f3f3ff;
+  padding-bottom: 60px;
+  padding-top: 3.75rem;
+}
+
+.itens-sobre {
+  box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.3);
+  background: #f0f0f9;
+  border-radius: 10px;
+}
+
+#sobre h2,
+h3 {
+  color: #23232e;
+}
+
+#sobre h2 {
+  font-size: 3.75rem;
+  padding-bottom: 30px;
+}
+
+#sobre h3,
+#sobre button {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.medidas h3,
+.vantagens h3,
+.material h3,
+.plavitec h3 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+#sobre p {
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #636377;
+}
+
+.medidas p {
+  margin-bottom: 10px;
+}
+
+.medidas p:last-child {
+  margin-bottom: 0;
+}
+
+.medidas span {
+  color: #4a4a5b;
+  font-weight: 600;
+}
+
+.vantagens li {
+  display: flex;
+  gap: 8px;
+  padding: 12px 6px;
+  border-radius: 5px;
+}
+
+.vantagens li:nth-child(odd) {
+  background: #e9e9f5;
+}
+
+.medidas,
+.material,
+.plavitec,
+.vantagens {
+  padding: 10px 20px;
+}
+
+.especificações.ativo {
+  display: block;
+}
+
+.titulo-especificações {
+  background: #dbdbe9;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.titulo-especificações button {
+  background: none;
+  border: none;
+}
+
+.titulo-especificações img {
+  transform: rotate(180deg);
+  margin-left: 8px;
+}
+
+.titulo-especificações img:hover {
+  transform: rotate(90deg);
+}
+
+@media (max-width: 62.5rem) {
+  #sobre h2 {
+    text-align: center;
+  }
+
+  #sobre {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+}

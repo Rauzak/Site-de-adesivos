@@ -11,6 +11,10 @@ toggleBtn.onclick = function () {
   toggleBtnIcon.classList = isOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars";
 };
 
+// ESPECIFICAÇÕES
+
+const especificações = document.querySelector(".item-sobre button");
+
 // Slider Estampados
 const initSlider = () => {
   const imageList = document.querySelector(".slider-wrapper .image-list");

@@ -1,6 +1,6 @@
 .navbar a,
 .dropdown_menu a {
-  color: #fff;
+  color: #f3f3ff;
   font-size: 1rem;
   letter-spacing: 0.1rem;
   line-height: 2.5;
@@ -9,7 +9,7 @@
 }
 
 .dropdown_menu a {
-  color: #fff;
+  color: #f3f3ff;
 }
 
 .navbar a:hover,
@@ -43,7 +43,7 @@ header {
 }
 
 .navbar .toggle_btn {
-  color: #fff;
+  color: #f3f3ff;
   font-size: 2rem;
   cursor: pointer;
   display: none;
